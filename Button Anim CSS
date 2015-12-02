@@ -1,0 +1,27 @@
+body{
+background-color:lightblue;
+}
+
+#buttonarea{
+background:yellow;
+max-width:80%;
+height:100px;
+bottom:100px;
+margin:auto;
+display:block;
+}
+
+#buttonrect{
+background-color:#ff0099;
+position:relative;
+top:60px;
+max-width:0%;
+height:2px;
+margin:auto;
+transition:2s;
+}
+
+#buttonarea:hover #buttonrect{
+max-width:60%; 
+transition:2s;
+}
